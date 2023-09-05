@@ -32,4 +32,4 @@ Pinout
 * wave_player.py taken from rafew's https://github.com/raphv/galactic-weather-clock/ weatherclock project [https://github.com/raphv/galactic-weather-clock/](https://github.com/raphv/galactic-weather-clock/blob/main/wave_player.py)
 ### Description of files
 * [laughs] Laughs directory with the 4 wav files (You can change these to your own m\king sure they are mono, 16-bit, 22050Hz)
-* faces.png The is the PNG spritesheet of four faces 32x32 pixels per frame
+* faces.png This the PNG spritesheet of four faces 32x32 pixels per frame
