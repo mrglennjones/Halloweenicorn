@@ -5,8 +5,6 @@ Pimoroni Cosmic Unicorn Halloween themed, PIR enabled scarer.
 https://github.com/mrglennjones/Halloweenicorn/assets/78789353/e368e2c6-0e17-4971-a348-8134fbac23ca
 
 
-<video src='https://github.com/mrglennjones/Halloweenicorn/blob/main/video_demo2.mp4' width=180/></video>
-
 ### What is it?
 A micropython script for Pimoroni's Cosmic Unicorn that displays a randomly picked face anim from PNG spritesheet and play a sound (evil laugh) upon detection from the PIR sensor 
 
@@ -31,5 +29,6 @@ Pinout
 * You need Version 1.20.4 of the Micropython firmware for the Raspberry Pi Pico W (Requires PNG support). Check https://github.com/pimoroni/pimoroni-pico/releases for Firmware updates
 * wave_player.py taken from rafew's https://github.com/raphv/galactic-weather-clock/ weatherclock project [https://github.com/raphv/galactic-weather-clock/](https://github.com/raphv/galactic-weather-clock/blob/main/wave_player.py)
 ### Description of files
+* pir_pngandsound.py main micropython script
 * [laughs] Laughs directory with the 4 wav files (You can change these to your own m\king sure they are mono, 16-bit, 22050Hz)
 * faces.png This the PNG spritesheet of four faces 32x32 pixels per frame
