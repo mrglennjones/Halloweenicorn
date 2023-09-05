@@ -1,6 +1,10 @@
 # Halloweenicorn
 Pimoroni Cosmic Unicorn Halloween themed, PIR enabled scarer.
 
+
+https://github.com/mrglennjones/Halloweenicorn/assets/78789353/e368e2c6-0e17-4971-a348-8134fbac23ca
+
+
 <video src='https://github.com/mrglennjones/Halloweenicorn/blob/main/video_demo2.mp4' width=180/></video>
 
 ### What is it?
