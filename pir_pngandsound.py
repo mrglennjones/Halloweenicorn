@@ -1,3 +1,6 @@
+#Halloweenicorn v.1 betarrr - @mrglennjones - Thanks to my good friend pb and hel from Pimoroni for the ninja style help.
+#apololgies to my mum for not commenting the code very well.
+
 import time
 import ntptime
 import urequests
@@ -13,7 +16,6 @@ graphics = PicoGraphics(display=DISPLAY_COSMIC_UNICORN)
 gu = CosmicUnicorn()
 
 #Setup PIR Sensor
-#PINS_BREAKOUT_GARDEN = {"sda": 4, "scl": 5}
 pir =  machine.Pin(5)
 
 
@@ -21,14 +23,14 @@ gu.set_brightness(0.2)
 
 wp = WavePlayer(gu)
 
+#PNG spritesheet
 png = PNG(graphics)
-#png.open_file("/s4m_ur4i-pirate-characters.png")
 png.open_file("/faces.png")
 
 LAUGH_SOUND = [ 'laugh/%s'%f for f in os.listdir('laugh') ]
 print (LAUGH_SOUND)
 
-
+#set the frame size for the animations
 frame_width = 32
 frame_height = 32
 
