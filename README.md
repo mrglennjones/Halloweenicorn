@@ -8,6 +8,8 @@ https://github.com/mrglennjones/Halloweenicorn/assets/78789353/e368e2c6-0e17-497
 ### What is it?
 A micropython script for Pimoroni's Cosmic Unicorn that displays a randomly picked face anim from PNG spritesheet and play a sound (evil laugh) upon detection from the PIR sensor 
 
+![faces](https://github.com/mrglennjones/Halloweenicorn/assets/78789353/0d2b930c-0372-41ac-bf3c-688b1aaf5fac)
+
 
 ### Hardware requirements
 
@@ -21,6 +23,7 @@ Pinout
     Black - GND
     Red - V+ (3.3V for Qwiic, 3-5V for STEMMA QT)
     Yellow - SCL
+![pir1](https://github.com/mrglennjones/Halloweenicorn/assets/78789353/a82b49ef-0f89-4cda-bd03-7e1e2479b833) | ![pir2](https://github.com/mrglennjones/Halloweenicorn/assets/78789353/0c714bd9-9862-4ca1-9e4b-a80628397e5e)
 
 
 ### Dependencies
