@@ -23,6 +23,8 @@ Pinout
     Black - GND
     Red - V+ (3.3V for Qwiic, 3-5V for STEMMA QT)
     Yellow - SCL
+The blue cable is unused
+
 ![pir1](https://github.com/mrglennjones/Halloweenicorn/assets/78789353/a82b49ef-0f89-4cda-bd03-7e1e2479b833) | ![pir2](https://github.com/mrglennjones/Halloweenicorn/assets/78789353/0c714bd9-9862-4ca1-9e4b-a80628397e5e)
 
 
