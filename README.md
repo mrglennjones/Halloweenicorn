@@ -5,7 +5,7 @@ Pimoroni Cosmic Unicorn Halloween themed, PIR enabled scarer.
 A micropython script for Pimoroni's Cosmic Unicorn that displays a randomly picked face anim from PNG spritesheet and play a sound (evil laugh) upon detection from the PIR sensor 
 
 
-### Hardwware requirements
+### Hardware requirements
 
 * Pimoroni Cosmic Unicorn - 32x32 led https://shop.pimoroni.com/products/space-unicorns?variant=40842626596947
 
@@ -26,4 +26,4 @@ Pinout
 * wave_player.py taken from rafew's https://github.com/raphv/galactic-weather-clock/ weatherclock project [https://github.com/raphv/galactic-weather-clock/](https://github.com/raphv/galactic-weather-clock/blob/main/wave_player.py)
 ### Description of files
 
-[laughs] Laughs directory 
+[laughs] Laughs directory with the 4 wav files (You can change these to your own m\king sure they are mono, 16-bit, 22050Hz)
