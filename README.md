@@ -1,9 +1,22 @@
 # Halloweenicorn
-
+Pimoroni Cosmic Unicorn Halloween themed, PIR enabled scarer.
 
 ### What is it?
-A micropython script for Pimoroni's Cosmic Unicorn that displays a randomly picked face anim and sound (evil laugh) upon rdetection from the PIR sensor 
-Pimoroni Cosmic Unicorn Halloween themed, PIR enabled scarer.
+A micropython script for Pimoroni's Cosmic Unicorn that displays a randomly picked face anim from PNG spritesheet and play a sound (evil laugh) upon detection from the PIR sensor 
+
+
+### Hardwware requirements
+
+* Pimoroni Cosmic Unicorn - 32x32 led https://shop.pimoroni.com/products/space-unicorns?variant=40842626596947
+
+* PIR Sensor - any 3.3v one should be good https://thepihut.com/products/pir-motion-sensor-module
+
+The PIR is connected via JST-SH Cable (Qwiic, STEMMA QT, QW/ST) – Male to DuPont socket header https://shop.pimoroni.com/products/jst-sh-cable-qwiic-stemma-qt-compatible?variant=40409136332883
+Pinout
+
+    Black - GND
+    Red - V+ (3.3V for Qwiic, 3-5V for STEMMA QT)
+    Yellow - SCL
 
 
 ### Dependencies
