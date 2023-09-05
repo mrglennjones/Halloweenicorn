@@ -17,7 +17,7 @@ A micropython script for Pimoroni's Cosmic Unicorn that displays a randomly pick
 
 * PIR Sensor - any 3.3v one should be good https://thepihut.com/products/pir-motion-sensor-module
 
-The PIR is connected via JST-SH Cable (Qwiic, STEMMA QT, QW/ST) – Male to DuPont socket header https://shop.pimoroni.com/products/jst-sh-cable-qwiic-stemma-qt-compatible?variant=40409136332883
+* The PIR is connected via JST-SH Cable (Qwiic, STEMMA QT, QW/ST) – Male to DuPont socket header https://shop.pimoroni.com/products/jst-sh-cable-qwiic-stemma-qt-compatible?variant=40409136332883
 Pinout
 
     Black - GND
