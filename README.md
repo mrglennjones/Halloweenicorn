@@ -1,6 +1,8 @@
 # Halloweenicorn
 Pimoroni Cosmic Unicorn Halloween themed, PIR enabled scarer.
 
+https://github.com/mrglennjones/Halloweenicorn/blob/main/videodemo.mp4
+
 ### What is it?
 A micropython script for Pimoroni's Cosmic Unicorn that displays a randomly picked face anim from PNG spritesheet and play a sound (evil laugh) upon detection from the PIR sensor 
 
