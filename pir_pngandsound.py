@@ -108,8 +108,7 @@ def JumpScare():
 
         # Decode and display the current frame
         png.decode(0, 0, source=(frame.frame_x * frame_width, frame.frame_y * frame_height, frame_width, frame_height), scale=(1, 1), rotate=0)
-        #png.decode(0, 0, source=(frame.frame_x * frame_width, frame.frame_y * frame_height, frame_width, frame_height), scale=(1, 1), rotate=0)
-
+        
         gu.update(graphics)
 
         time.sleep(0.25)  # Adjust speed of anim
