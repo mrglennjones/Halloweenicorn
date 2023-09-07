@@ -127,7 +127,7 @@ def JumpScare():
         
         gu.update(graphics)
 
-        time.sleep(0.25)  # Adjust speed of anim
+        time.sleep(0.1)  # Adjust speed of anim
 
     # Clear display
     graphics.set_pen(black)
