@@ -8,7 +8,8 @@ https://github.com/mrglennjones/Halloweenicorn/assets/78789353/e368e2c6-0e17-497
 ### What is it?
 A micropython script for Pimoroni's Cosmic Unicorn that displays a randomly picked face anim from PNG spritesheet and play a sound (evil laugh) upon detection from the PIR sensor 
 
-![faces](https://github.com/mrglennjones/Halloweenicorn/assets/78789353/0d2b930c-0372-41ac-bf3c-688b1aaf5fac)
+![facesxl](https://github.com/mrglennjones/Halloweenicorn/assets/78789353/cbd89b40-ef9f-43ce-b80e-cce592b40190)
+
 
 ### Dependencies
 
