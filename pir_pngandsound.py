@@ -101,10 +101,10 @@ frankframes.append(frame (0, 5))
 frankframes.append(frame (1, 5))
 frankframes.append(frame (2, 5))
 frankframes.append(frame (3, 5))
-frankframes.append(frame (0, 5))
-frankframes.append(frame (1, 5))
-frankframes.append(frame (2, 5))
 frankframes.append(frame (3, 5))
+frankframes.append(frame (2, 5))
+frankframes.append(frame (1, 5))
+frankframes.append(frame (0, 5))
 
 mummyframes = []
 # describe as index from 0 - 3
