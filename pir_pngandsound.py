@@ -137,6 +137,9 @@ busy = False
 
 def JumpScare():
     global busy
+
+    #auto set brightness from light sensor        
+    gu.set_brightness(max(.15,min(1.,gu.light()/600)))
     
     busy = True
     gu.set_volume(0.1) 
@@ -178,9 +181,7 @@ def JumpScare():
         png.decode(0, 0, source=(frame.frame_x * frame_width, frame.frame_y * frame_height, frame_width, frame_height), scale=(1, 1), rotate=0)
         #png.decode(0, 0, source=(frame.frame_x * frame_width, frame.frame_y * frame_height, frame_width, frame_height), scale=(1, 1), rotate=0)
         #gu.adjust_brightness(-0.25)  # brightness ad
-        #auto set brightness from light sensor        
-        gu.set_brightness(max(.15,min(1.,gu.light()/600)))
-        
+                
         gu.update(graphics)        
         time.sleep(0.1)  # Adjust speed of anim
 
